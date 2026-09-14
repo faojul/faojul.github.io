@@ -18,6 +18,7 @@
       <div class="nav-links">
         <a href="#work">Work</a>
         <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#about">About</a>
         <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
@@ -145,6 +146,11 @@
             <div class="work-result"><strong>4</strong><small>engineers led</small></div>
           </article>
           <article class="work-item">
+            <div class="work-meta"><span>Dec 2021 — May 2022</span><span>Code Maze · Remote (Part-time)</span></div>
+            <div class="work-main"><h3>Technical content author</h3><p>Authored technical articles on ASP.NET Core with fully tested code samples and clear architectural principles, collaborating asynchronously with a global editorial team to deliver content on time to quality standards.</p><div class="tags"><span>ASP.NET Core</span><span>Technical Writing</span><span>Remote Collaboration</span></div></div>
+            <div class="work-result"><strong>100%</strong><small>tested code samples</small></div>
+          </article>
+          <article class="work-item">
             <div class="work-meta"><span>2018 — 2021</span><span>Novotel · InterCloud</span></div>
             <div class="work-main"><h3>Telecom billing systems</h3><p>Developed 8 telecom billing systems and improved CDR processing performance by 40%. Designed ERDs and SQL jobs for mediation, rating, invoicing and payments.</p><div class="tags"><span>VB.NET</span><span>SQL Server</span><span>IIS</span><span>Billing</span></div></div>
             <div class="work-result"><strong>8</strong><small>billing systems</small></div>
@@ -175,19 +181,31 @@
           <h2>Engineer. Mentor.<br><em>Technical writer.</em></h2>
         </div>
         <div class="about-copy">
-          <p>I'm a Senior Software Engineer with 8+ years of hands-on experience building web applications, backend systems, APIs and enterprise solutions.</p>
-          <p>My strongest area is backend engineering with C# and .NET, but I care just as much about architecture, maintainability and helping teams make better technical decisions.</p>
-          <p>I have also worked with globally distributed teams and write technical content for developers. More recently, I'm exploring AI engineering, RAG, ML.NET and agentic application development in the .NET ecosystem.</p>
+          <p>I'm a Senior Software Engineer with 8+ years of experience building scalable web applications, APIs and enterprise SaaS platforms with C# and .NET. I focus on system architecture and enterprise design patterns, with hands-on experience integrating AI/ML capabilities into the .NET ecosystem.</p>
+          <p>Alongside the engineering, I've led and mentored teams, and delivered high-performance solutions for clients across the US and Europe. I also write technical content for developers and I'm continuing to explore RAG, ML.NET and agentic application development in .NET.</p>
           <div class="education"><strong>KUET</strong><span>BSc in Computer Science & Engineering · 2014–2018</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section open-source container">
-      <div class="oss-card">
-        <div><span class="section-kicker">OPEN SOURCE</span><h2>LiteMediator</h2><p>A lightweight in-process Mediator library for .NET, published as a NuGet package with automated GitHub Actions CI/CD.</p></div>
-        <div class="oss-stat"><strong>1.4K+</strong><span>NuGet downloads</span></div>
-        <a class="btn btn-ghost" href="https://github.com/faojul" target="_blank" rel="noreferrer">View GitHub ↗</a>
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <div><span class="section-kicker">PROJECTS & OPEN SOURCE</span><h2>Things I've built<br><em>outside of work hours.</em></h2></div>
+        <p>Side projects, POCs and an open-source library I maintain.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div><h3>LiteMediator</h3><p>A lightweight in-process Mediator library for .NET, published as a NuGet package with automated GitHub Actions CI/CD.</p><div class="tags"><span>.NET</span><span>NuGet</span><span>CI/CD</span></div></div>
+          <div class="project-foot"><strong>1.7K+</strong><span>NuGet downloads</span><a href="https://github.com/faojul/LiteMediator" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
+        </article>
+        <article class="project-card">
+          <div><h3>Sponsorship Workflow</h3><p>An enterprise workflow proof-of-concept built and deployed to the cloud with a separate Angular frontend, .NET API and PostgreSQL database, using Clean Architecture, CQRS and RBAC.</p><div class="tags"><span>.NET 10</span><span>CQRS</span><span>Angular</span><span>PostgreSQL</span><span>Docker</span></div></div>
+          <div class="project-foot"><a href="https://github.com/faojul/Sponsorship-Workflow" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
+        </article>
+        <article class="project-card">
+          <div><h3>Rules Resolution Service</h3><p>An engine handling override prioritization, conflict detection and explainability, designed with Clean Architecture and Domain-Driven Design.</p><div class="tags"><span>Go</span><span>Clean Architecture</span><span>DDD</span></div></div>
+          <div class="project-foot"><a href="https://github.com/faojul/Rules-Resolution-Service" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
+        </article>
       </div>
     </section>
 
@@ -199,12 +217,16 @@
           <p>Tell me what you're working on. Whether you need engineering help, a second opinion, mentoring, or a modernization plan, I'll get back to you.</p>
           <div class="contact-links">
             <a href="mailto:faojulahsan@gmail.com"><span>✉</span> faojulahsan@gmail.com</a>
-            <a href="tel:+8801756285242"><span>☎</span> +880 175 628 5242</a>
             <a href="https://www.linkedin.com/in/faojul-ahsan" target="_blank" rel="noreferrer"><span>in</span> LinkedIn</a>
             <a href="https://github.com/faojul" target="_blank" rel="noreferrer"><span>⌘</span> GitHub</a>
           </div>
         </div>
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="contact-form" action="https://formsubmit.co/faojulahsan@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New inquiry from faojul.github.io">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://faojul.github.io/thank-you.html">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-row"><label>Name<input type="text" name="name" placeholder="Your name" required></label><label>Email<input type="email" name="email" placeholder="you@example.com" required></label></div>
           <label>What can I help with?
             <select name="service">
