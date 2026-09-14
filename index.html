@@ -1,551 +1,233 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Faojul Ahsan</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-      </style>
-    </noscript>
-  </head>
-  <body id="top">
-    <header>
-      <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-          <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Faojul Ahsan CV</a>
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Faojul Ahsan — Senior Software Engineer, .NET Technical Lead, AI Engineering and Developer Services." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Faojul Ahsan — Senior .NET Engineer & Technical Lead</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#top">FA<span>.</span></a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
       </div>
-    </header>
-    <div class="page-content">
-      <div>
-<div class="profile-page">
-  <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> Available for remote & consulting work</div>
+        <h1>I build software that<br><em>survives the next 5 years.</em></h1>
+        <p class="hero-text">
+          Senior Software Engineer & Technical Lead with 8+ years of experience in C#, .NET, Angular,
+          backend architecture and enterprise systems. I modernize legacy platforms, build scalable APIs,
+          and help developers grow.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Work with me <span>↗</span></a>
+          <a class="btn btn-ghost" href="Faojul_Ahsan_CV.pdf" download>Download CV <span>↓</span></a>
+        </div>
+        <div class="trust-row">
+          <span>8+ years</span><i></i><span>.NET 6 → 10</span><i></i><span>Enterprise systems</span><i></i><span>Remote</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-glow"></div>
+        <div class="code-window">
+          <div class="window-bar"><span></span><span></span><span></span><small>modernization.cs</small></div>
+          <pre><code><b>public async Task</b> Modernize(
+    LegacySystem legacy)
+{
+    <span class="blue">// Don't rewrite everything.</span>
+    <span class="blue">// Evolve it safely.</span>
+
+    <b>var</b> architecture =
+        CleanArchitecture
+        .WithCQRS()
+        .WithTests();
+
+    <b>return await</b>
+        MigrateIncrementally(
+            legacy, architecture);
+}</code></pre>
+        </div>
+        <div class="floating-stat stat-one"><strong>60%</strong><span>performance<br>improvement</span></div>
+        <div class="floating-stat stat-two"><strong>80%</strong><span>test<br>coverage</span></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Technology highlights">
+      <div class="marquee-inner">
+        <span>C#</span><b>✦</b><span>.NET</span><b>✦</b><span>ASP.NET Core</span><b>✦</b><span>Clean Architecture</span><b>✦</b><span>CQRS</span><b>✦</b><span>Angular</span><b>✦</b><span>AI Engineering</span><b>✦</b><span>Azure</span><b>✦</b><span>Go</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="services" class="section container">
+      <div class="section-heading">
+        <div><span class="section-kicker">WHAT I CAN DO</span><h2>From stuck legacy code<br>to <em>shipping software.</em></h2></div>
+        <p>I offer focused engineering services for businesses and developers who need practical, production-minded help.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service featured">
+          <div class="service-number">01</div>
+          <div class="service-icon">↗</div>
+          <h3>Legacy → Modern .NET</h3>
+          <p>Migrate .NET Framework applications toward modern .NET, including .NET 8/10, while reducing migration risk and keeping the business running.</p>
+          <ul><li>Incremental migration strategy</li><li>Architecture modernization</li><li>Performance & maintainability</li></ul>
+        </article>
+        <article class="service">
+          <div class="service-number">02</div>
+          <div class="service-icon">⌘</div>
+          <h3>Backend & API Engineering</h3>
+          <p>Design and improve production APIs and backend systems with C#, ASP.NET Core, EF Core, Dapper and pragmatic architecture.</p>
+          <ul><li>REST APIs & integrations</li><li>CQRS / Clean Architecture</li><li>SQL & data access</li></ul>
+        </article>
+        <article class="service">
+          <div class="service-number">03</div>
+          <div class="service-icon">◎</div>
+          <h3>Architecture Review</h3>
+          <p>Get an independent technical review of an existing system before technical debt becomes a business problem.</p>
+          <ul><li>Architecture assessment</li><li>Code quality review</li><li>Actionable roadmap</li></ul>
+        </article>
+        <article class="service">
+          <div class="service-number">04</div>
+          <div class="service-icon">↯</div>
+          <h3>Performance & Reliability</h3>
+          <p>Find bottlenecks, improve API/database performance and make production systems more predictable.</p>
+          <ul><li>Profiling & bottleneck analysis</li><li>SQL optimization</li><li>Async & concurrency</li></ul>
+        </article>
+        <article class="service">
+          <div class="service-number">05</div>
+          <div class="service-icon">◌</div>
+          <h3>Developer Mentoring</h3>
+          <p>1:1 practical mentoring for .NET developers — career direction, architecture, code reviews, interviews and real-world engineering.</p>
+          <ul><li>Career roadmap</li><li>Code / architecture review</li><li>Interview preparation</li></ul>
+        </article>
+        <article class="service">
+          <div class="service-number">06</div>
+          <div class="service-icon">✎</div>
+          <h3>Technical Writing & Content</h3>
+          <p>Technical articles, tutorials and developer-focused content around .NET, AI engineering and backend development.</p>
+          <ul><li>Developer tutorials</li><li>Technical documentation</li><li>Architecture explainers</li></ul>
+        </article>
+      </div>
+      <div class="service-note">Need something else? <a href="#contact">Tell me what you're building →</a></div>
+    </section>
+
+    <section id="work" class="section dark-section">
       <div class="container">
-        <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/FaojulAhsan.jpg" alt="Image"/></a></div>
-          <div class="h2 title">Faojul Ahsan Abir</div>
-          <p class="category text-white">Web Developer (C#, ASP.NET Core), SQL Developer, Quantum Cryptography Enthusiast</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+        <div class="section-heading light">
+          <div><span class="section-kicker">SELECTED EXPERIENCE</span><h2>Production work, not<br><em>toy projects.</em></h2></div>
+          <p>Experience across enterprise SaaS, telecom billing, procurement automation, APIs and AI/ML integration.</p>
+        </div>
+        <div class="work-list">
+          <article class="work-item">
+            <div class="work-meta"><span>2022 — Present</span><span>Streams Tech · DB&A, Dallas</span></div>
+            <div class="work-main"><h3>Enterprise SaaS modernization</h3><p>Migrated a legacy .NET Framework 4.5 system to .NET 8, improved performance by 60%, and built CQRS/Dapper REST APIs with Clean Architecture.</p><div class="tags"><span>.NET 8</span><span>CQRS</span><span>Dapper</span><span>ML.NET</span><span>xUnit</span></div></div>
+            <div class="work-result"><strong>60%</strong><small>faster legacy system</small></div>
+          </article>
+          <article class="work-item">
+            <div class="work-meta"><span>2021 — 2022</span><span>Novotel · InterCloud</span></div>
+            <div class="work-main"><h3>Technical leadership & automation</h3><p>Led a team of 4 engineers across 6 enterprise applications, drove code reviews and sprint planning, and spearheaded automation that improved operational speed by 60%.</p><div class="tags"><span>Leadership</span><span>.NET</span><span>Angular</span><span>Automation</span></div></div>
+            <div class="work-result"><strong>4</strong><small>engineers led</small></div>
+          </article>
+          <article class="work-item">
+            <div class="work-meta"><span>2018 — 2021</span><span>Novotel · InterCloud</span></div>
+            <div class="work-main"><h3>Telecom billing systems</h3><p>Developed 8 telecom billing systems and improved CDR processing performance by 40%. Designed ERDs and SQL jobs for mediation, rating, invoicing and payments.</p><div class="tags"><span>VB.NET</span><span>SQL Server</span><span>IIS</span><span>Billing</span></div></div>
+            <div class="work-result"><strong>8</strong><small>billing systems</small></div>
+          </article>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading">
+        <div><span class="section-kicker">ENGINEERING TOOLBOX</span><h2>Deep in .NET.<br><em>Curious beyond it.</em></h2></div>
+        <p>Tools I use to solve real engineering problems — not just keywords on a CV.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-block"><h4>Backend</h4><div class="skill-pills"><span>C#</span><span>.NET 6/8/10</span><span>ASP.NET Core</span><span>Web API</span><span>EF Core</span><span>Dapper</span></div></div>
+        <div class="skill-block"><h4>Architecture</h4><div class="skill-pills"><span>Clean Architecture</span><span>CQRS</span><span>Modular Monolith</span><span>DDD</span><span>TDD</span><span>Microservices</span></div></div>
+        <div class="skill-block"><h4>Data & Messaging</h4><div class="skill-pills"><span>SQL Server</span><span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>Kafka</span><span>RabbitMQ</span><span>SignalR</span></div></div>
+        <div class="skill-block"><h4>AI Engineering</h4><div class="skill-pills"><span>Microsoft.Extensions.AI</span><span>Semantic Kernel</span><span>Microsoft Agent Framework</span><span>RAG</span><span>ML.NET</span></div></div>
+        <div class="skill-block"><h4>Cloud & DevOps</h4><div class="skill-pills"><span>Azure</span><span>Docker</span><span>GitHub Actions</span><span>CI/CD</span><span>Kubernetes</span><span>AWS</span></div></div>
+        <div class="skill-block"><h4>Frontend & Other</h4><div class="skill-pills"><span>Angular</span><span>TypeScript</span><span>RxJS</span><span>Go</span><span>Python</span></div></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="section-kicker">A LITTLE ABOUT ME</span>
+          <h2>Engineer. Mentor.<br><em>Technical writer.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm a Senior Software Engineer with 8+ years of hands-on experience building web applications, backend systems, APIs and enterprise solutions.</p>
+          <p>My strongest area is backend engineering with C# and .NET, but I care just as much about architecture, maintainability and helping teams make better technical decisions.</p>
+          <p>I have also worked with globally distributed teams and write technical content for developers. More recently, I'm exploring AI engineering, RAG, ML.NET and agentic application development in the .NET ecosystem.</p>
+          <div class="education"><strong>KUET</strong><span>BSc in Computer Science & Engineering · 2014–2018</span></div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="about">
-  <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>Hello! I am Faojul Ahsan Abir. Web Developer (C#, ASP.NET Core), SQL Developer, Quantum Cryptography Enthusiast.</p>
-            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
-            <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">29</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8">faojul.ahsan@novotel-bd.com</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-              <div class="col-sm-8">+8801756285242</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">Gulshan, Dhaka- 1212, Bangladesh</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">English, Bangla</div>
-            </div>
-          </div>
-        </div>
+    </section>
+
+    <section class="section open-source container">
+      <div class="oss-card">
+        <div><span class="section-kicker">OPEN SOURCE</span><h2>LiteMediator</h2><p>A lightweight in-process Mediator library for .NET, published as a NuGet package with automated GitHub Actions CI/CD.</p></div>
+        <div class="oss-stat"><strong>1.4K+</strong><span>NuGet downloads</span></div>
+        <a class="btn btn-ghost" href="https://github.com/faojul" target="_blank" rel="noreferrer">View GitHub ↗</a>
       </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="skill">
-  <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div>
-    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-              </div>
-            </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <span class="section-kicker">LET'S BUILD SOMETHING</span>
+          <h2>Have a system that needs<br><em>a better direction?</em></h2>
+          <p>Tell me what you're working on. Whether you need engineering help, a second opinion, mentoring, or a modernization plan, I'll get back to you.</p>
+          <div class="contact-links">
+            <a href="mailto:faojulahsan@gmail.com"><span>✉</span> faojulahsan@gmail.com</a>
+            <a href="tel:+8801756285242"><span>☎</span> +880 175 628 5242</a>
+            <a href="https://www.linkedin.com/in/faojul-ahsan" target="_blank" rel="noreferrer"><span>in</span> LinkedIn</a>
+            <a href="https://github.com/faojul" target="_blank" rel="noreferrer"><span>⌘</span> GitHub</a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">SASS</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row"><label>Name<input type="text" name="name" placeholder="Your name" required></label><label>Email<input type="email" name="email" placeholder="you@example.com" required></label></div>
+          <label>What can I help with?
+            <select name="service">
+              <option>Legacy .NET modernization</option>
+              <option>Backend / API development</option>
+              <option>Architecture review</option>
+              <option>Performance optimization</option>
+              <option>Developer mentoring</option>
+              <option>Technical writing</option>
+              <option>Other consulting</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="6" placeholder="Tell me briefly about the problem, project or goal..." required></textarea></label>
+          <button class="btn btn-primary submit-btn" type="submit">Send inquiry <span>↗</span></button>
+          <p class="form-note">Prefer email? <a href="mailto:faojulahsan@gmail.com">Send me a direct email.</a></p>
+        </form>
       </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
-        <div class="nav-align-center">
-          <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Recent Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Web Advertising Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="graphic-design" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Triangle Pattern</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Umbrella</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Cube Surface Texture</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Line</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="Photography" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Wedding Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Beach Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="experience">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-        <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>December 2021 - Present</p>
-            <div class="h5">Code-Maze</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Author</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>June 2018 - Present</p>
-            <div class="h5">Novotel Limited</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Sr Software Engineer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>April 2013 - February 2014</p>
-            <div class="h5">WEBM</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Intern</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="education">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
-    <!-- <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2013 - 2015</p>
-            <div class="h5">Master's Degree</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Master of Information Technology</div>
-            <p class="category">University of Computer Science</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2014 - 2018</p>
-            <div class="h5">Bachelor's Degree</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Bachelor of Computer Science & Engineering</div>
-            <p class="category">Khulna University of Engineering & Technology, Khulna</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-      </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2011 - 2013</p>
-            <div class="h5">College (Higher Secondary Certificate)</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Science</div>
-            <p class="category">Notre Dame College, Dhaka</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-      </div>
-   <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2001 - 2011</p>
-            <div class="h5">School (Secondary School Certificate)</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Science</div>
-            <p class="category">Bogura Cantonment School & College, Bogura</p>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-          </div>
-        </div>
-      </div>
-      </div>
-</div>
-</div>
-<div class="section" id="reference">
-  <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">References</div>
-    <div class="card" data-aos="zoom-in">
-      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-          <li data-target="#cc-Indicators" data-slide-to="1"></li>
-          <li data-target="#cc-Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/moynulHaque.jpg" alt="Image"/>
-                <div class="h5 pt-2">Muhammad Moynul Haque Biswas</div>
-                <p class="category">Assistant General Manager at Link3</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
-                <div class="h5 pt-2">Braiden</div>
-                <p class="category">CEO / Creativem</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
-                <div class="h5 pt-2">Alexander</div>
-                <p class="category">CEO / Webnote</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
-    <div class="container">
-      <div class="cc-contact">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <form action="https://formspree.io/faojul.ahsan@novotel-bd.com" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">Gulshan, Dhaka-1212, Bangladesh</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">+8801756285242</p>
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p>faojul.ahsan@novotel-bd.com.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <footer class="footer">
-      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
-      <div class="h4 title text-center">Faojul Ahsan</div>
-      <div class="text-center text-muted">
-        <p>&copy; All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
-      </div>
-    </footer>
-    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-    <script src="js/core/popper.min.js?ver=1.1.0"></script>
-    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
-    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
-    <script src="js/aos.js?ver=1.1.0"></script>
-    <script src="scripts/main.js?ver=1.1.0"></script>
-  </body>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>© 2026 Faojul Ahsan</span><span>Built for useful software.</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
